@@ -11,8 +11,8 @@ namespace SnakeLadder
             int diceroll = myObj.Rollingdie;
 
             Random random = new Random();
-            int option = random.Next(1, 4);
-            Console.WriteLine("Checking Options :" + option);
+            int options = random.Next(1, 4);
+            Console.WriteLine("Checking Options :" + options);
         
             
             switch(option)

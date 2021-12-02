@@ -10,7 +10,7 @@ namespace SnakeLadder
         public class Throw
         {
             public int Rollingdie;
-            public int option; 
+            public int options; 
 
             public void Roll1()
             {
@@ -21,8 +21,8 @@ namespace SnakeLadder
             Console.WriteLine("ROLL THE DICE  : " + Rollingdie);
 
             Random random1 = new Random();
-            option = random1.Next(0, 2);
-            Console.WriteLine("CHECKING THE OPTIONS  : " + option);
+            options = random1.Next(0, 2);
+            Console.WriteLine("CHECKING THE OPTIONS  : " + options);
 
         }
     }
